@@ -13,13 +13,15 @@ function Resume() {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
+    const pdfUrl = import.meta.env.BASE_URL + 'Evelyn_Sun_Resume_Updated.docx.pdf'
+
     return (
         <div id="resume_setup">
           <h1 id="resume_header">My Resume</h1>
     
           {!isMobile && (
             <iframe
-              src="/Evelyn_Sun_Resume_Updated.docx.pdf"
+              src={pdfUrl}
               width="100%"
               height="1150px"
               title="Resume PDF"
@@ -29,7 +31,7 @@ function Resume() {
     
           <a
             id="download_button"
-            href="/Evelyn_Sun_Resume_Updated.docx.pdf"
+            href={pdfUrl}
             target="_blank"
             rel="noopener noreferrer"
             style={{ marginTop: '30px'}}
