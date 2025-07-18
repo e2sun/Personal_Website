@@ -13,7 +13,7 @@ function Resume() {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    const pdfUrl = import.meta.env.BASE_URL + 'Evelyn_Sun_Resume_Updated.docx.pdf'
+    const pdfUrl = import.meta.env.BASE_URL + 'Evelyn_Sun_Resume_Updated.docx.pdf?v=2'
 
     return (
         <div id="resume_setup">
