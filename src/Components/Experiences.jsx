@@ -9,16 +9,15 @@ function Experiences() {
         <div id="experience_setup">
             <h1 className="my_experiences"> My Experiences</h1>
             <div className="experience_name">
-                <span className="experience_date"> June 2025 - August 2026</span>
+                <span className="experience_date"> June 2025 - December 2026</span>
                 <span className="experience_location"> Buffalo, NY</span>
-                <h2 className="experience_title"> Software Engineer Intern </h2>
+                <h2 className="experience_title"> Technology Intern </h2>
                 <p className="experience_description">
-                    Selected for M&T Bank’s highly competitive 10-week Technology Internship Program (TIP), focused on innovation in the financial services
-                    industry. Contributing to the development of an enhanced internal chatbot for the Business Service Portal, designed to assist employees
-                    in navigating complex applications through natural language queries. Leveraging Python, SQL, and Angular to train and test a deep learning
-                    model while implementing new features and functionality. The chatbot is scheduled for production deployment by the end of the summer. The
-                    program also includes structured professional development, networking events with executive leadership, and exploration of career paths in
-                    fintech and engineering.
+                    Selected for M&T Bank’s 10-week Technology Internship Program, contributing to the development of an enhanced internal
+                    chatbot for the Business Service Portal using Python, SQL, and Angular. Worked on training and integrating a deep learning
+                    model, improving natural language query handling, and building UI features that streamline employee workflow. Contract
+                    was extended to refactor legacy components and design a production-ready ticket viewing history feature using Angular,
+                    Java Spring Boot, HTML, and CSS, improving maintainability and user experience across the platform.
                 </p>
 
                 <img id="experience_pic_3" src={myPic3} alt="M and T Bank TIP Acceptance" />

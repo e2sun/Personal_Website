@@ -13,6 +13,13 @@ import myPic12 from '../Images/create_community.png';
 import myPic13 from '../Images/dashboard.png';
 import myPic14 from '../Images/advanced_search.png';
 import myPic15 from '../Images/upload.png';
+import myPic16 from '../Images/dashboard-copy.png';
+import myPic17 from '../Images/companies-copy.png';
+import myPic18 from '../Images/applications-copy.png';
+import myPic19 from '../Images/company-detail-copy.png';
+import myPic20 from '../Images/add-company-copy.png';
+import myPic21 from '../Images/add-application-copy.png';
+
 
 
 
@@ -23,6 +30,20 @@ import { useState, useEffect } from 'react';
 
 
 const projectData = [
+    {
+        title: 'Internship Application Tracker',
+        description: [
+            `Developed a full-stack Internship Application Tracker to organize and visualize internship applications across companies,
+            roles, and recruiting stages. Built a responsive, component-based frontend using Angular and TypeScript, implementing
+            dynamic routing, status editing, sorting, and CRUD forms with real-time UI updates. Designed and implemented RESTful APIs
+            with Spring Boot to manage companies, applications, and relational data. Integrated PostgreSQL for data persistence,
+            configuring entity relationships, cascading deletes, and repository-level querying. Added client-side forms with validation,
+            modal confirmations, and an intuitive dashboard for analytics. Managed version control and development workflow using Git
+            and GitHub.`
+        ],
+        images: [myPic16, myPic17, myPic18, myPic19, myPic20, myPic21],
+        github: 'https://github.com/e2sun/intership-application-tracker-frontend',
+    },
     {
         title: 'Seawolf Connect',
         description: [
@@ -51,7 +72,6 @@ const projectData = [
             between users, communities, posts, and comments. Modeled data schemas in MongoDB and optimized queries for real-time data
             retrieval. Integrated asynchronous data fetching and form validation with Axios to support seamless interactions. Managed
             version control and collaboration workflows using Git and GitHub feature branches.`
-
         ],
         images: [myPic6, myPic7, myPic8, myPic9, myPic10, myPic11, myPic12],
         github: 'https://github.com/e2sun/phreddit',
