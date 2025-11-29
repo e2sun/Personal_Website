@@ -610,13 +610,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2024 Fonticons, Inc.
- */const Cp={prefix:"fas",iconName:"arrow-right",icon:[448,512,[8594],"f061","M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"]},Hp={prefix:"fas",iconName:"arrow-left",icon:[448,512,[8592],"f060","M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"]},Ah=[{title:"Internship Application Tracker",description:[`Developed a full-stack Internship Application Tracker to organize and visualize internship applications across companies,
-            roles, and recruiting stages. Built a responsive, component-based frontend using Angular and TypeScript, implementing
-            dynamic routing, status editing, sorting, and CRUD forms with real-time UI updates. Designed and implemented RESTful APIs
-            with Spring Boot to manage companies, applications, and relational data. Integrated PostgreSQL for data persistence,
-            configuring entity relationships, cascading deletes, and repository-level querying. Added client-side forms with validation,
-            modal confirmations, and an intuitive dashboard for analytics. Managed version control and development workflow using Git
-            and GitHub.`],images:[rv,ov,dv,mv,hv,gv],github:"https://github.com/e2sun/intership-application-tracker-frontend"},{title:"Seawolf Connect",description:[`Seawolf Connect was born from the desire to help students dive deeper into Stony Brook’s vibrant campus life.
+ */const Cp={prefix:"fas",iconName:"arrow-right",icon:[448,512,[8594],"f061","M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"]},Hp={prefix:"fas",iconName:"arrow-left",icon:[448,512,[8592],"f060","M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"]},Ah=[{title:"Internship Application Tracker",description:[`Tech recruiting season can feel brutal, so to cut through the chaos I built a full-stack Internship Application
+            Tracker to organize and visualize applications across companies, roles, and recruiting stages. On the
+            frontend, I implemented a responsive, component-based Angular UI in TypeScript with dynamic routing, 
+            in-place status editing, sorting, and CRUD forms that trigger real-time updates. On the backend, 
+            I designed and built RESTful APIs with Spring Boot backed by PostgreSQL, modeling entity relationships, 
+            cascading deletes, and repository-level queries for efficient data access. I also added client-side validation, 
+            modal confirmations, and an intuitive analytics dashboard, and managed the project using Git and GitHub for version control 
+            and development workflow.`],images:[rv,ov,dv,mv,hv,gv],github:"https://github.com/e2sun/intership-application-tracker-frontend"},{title:"Seawolf Connect",description:[`Seawolf Connect was born from the desire to help students dive deeper into Stony Brook’s vibrant campus life.
          With over 25,000 students, finding peers with shared interests can be challenging. As an incoming freshman, I
          was lucky to discover my WISE (Women in Science and Engineering) community—a supportive network where I met some
          of my closest friends to this day. Now, with Seawolf Connect, I hope to create the same welcoming space for every
@@ -626,7 +627,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
          share the same mascot match. You’ll then be directed to a dedicated page where you can explore and connect with others who
          have your wolfienality. We built Seawolf Connect using HTML, CSS, and JavaScript to ensure a modern, interactive experience.
          Our custom illustrations of Wolfie were digitally drawn in Adobe Fresco, and the wolfienality results page was thoughtfully designed
-         using Canva. Special thanks to Charlotte Cain, Malia Ng, and Esther Wang for their contributions to the project.`],images:[Wy,Fy,Py,$y,Iy],github:"https://github.com/e2sun/HopperHacks2025"},{title:"Phreddit (Phony Reddit)",description:[`Developed Phreddit, a full-stack Reddit-inspired web application supporting user registration and authentication,
+         using Canva. Special thanks to Charlotte Cain, Malia Ng, and Esther Wang for their contributions to the project.`],images:[Wy,Fy,Py,$y,Iy],github:"https://github.com/e2sun/HopperHacks2025"},{title:"Phreddit (Phony Reddit)",description:[`Co-developed Phreddit, a full-stack Reddit-inspired web application supporting user registration and authentication,
             community creation, post submission, and threaded commenting through a responsive, component-based UI. Architected and
             implemented the frontend using React, with client-side routing and reusable components to ensure a dynamic experience.
             Designed and built RESTful APIs with Node.js and Express to manage authentication, CRUD operations, and relationships

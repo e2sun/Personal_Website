@@ -33,13 +33,14 @@ const projectData = [
     {
         title: 'Internship Application Tracker',
         description: [
-            `Developed a full-stack Internship Application Tracker to organize and visualize internship applications across companies,
-            roles, and recruiting stages. Built a responsive, component-based frontend using Angular and TypeScript, implementing
-            dynamic routing, status editing, sorting, and CRUD forms with real-time UI updates. Designed and implemented RESTful APIs
-            with Spring Boot to manage companies, applications, and relational data. Integrated PostgreSQL for data persistence,
-            configuring entity relationships, cascading deletes, and repository-level querying. Added client-side forms with validation,
-            modal confirmations, and an intuitive dashboard for analytics. Managed version control and development workflow using Git
-            and GitHub.`
+            `Tech recruiting season can feel brutal, so to cut through the chaos I built a full-stack Internship Application
+            Tracker to organize and visualize applications across companies, roles, and recruiting stages. On the
+            frontend, I implemented a responsive, component-based Angular UI in TypeScript with dynamic routing, 
+            in-place status editing, sorting, and CRUD forms that trigger real-time updates. On the backend, 
+            I designed and built RESTful APIs with Spring Boot backed by PostgreSQL, modeling entity relationships, 
+            cascading deletes, and repository-level queries for efficient data access. I also added client-side validation, 
+            modal confirmations, and an intuitive analytics dashboard, and managed the project using Git and GitHub for version control 
+            and development workflow.`
         ],
         images: [myPic16, myPic17, myPic18, myPic19, myPic20, myPic21],
         github: 'https://github.com/e2sun/intership-application-tracker-frontend',
@@ -65,7 +66,7 @@ const projectData = [
     {
         title: 'Phreddit (Phony Reddit)',
         description: [
-            `Developed Phreddit, a full-stack Reddit-inspired web application supporting user registration and authentication,
+            `Co-developed Phreddit, a full-stack Reddit-inspired web application supporting user registration and authentication,
             community creation, post submission, and threaded commenting through a responsive, component-based UI. Architected and
             implemented the frontend using React, with client-side routing and reusable components to ensure a dynamic experience.
             Designed and built RESTful APIs with Node.js and Express to manage authentication, CRUD operations, and relationships
