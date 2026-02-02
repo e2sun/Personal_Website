@@ -14,7 +14,7 @@ function Experiences() {
                 <span className="experience_location"> Stony Brook, NY</span>
                 <h2 className="experience_title"> Undergraduate Research Assistant </h2>
                 <p className="experience_description">
-                    Developing an honors thesis research project that uses game theory to model human vs. autonomous
+                    Developing my honors thesis research project that uses game theory to model human vs. autonomous
                     vehicle decision-making in mixed traffic scenarios. Building a two-agent Hawk–Dove simulation
                     in Python to analyze how risk aversion and payoff parameters influence Nash/mixed-strategy outcomes,
                     and prototyping an LLM-driven driver agent to simulate diverse human behaviors and evaluate policy-relevant
