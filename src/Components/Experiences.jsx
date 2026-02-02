@@ -3,21 +3,39 @@ import myPic1 from '../Images/AI_LINKEDIN.png';
 import myPic2 from '../Images/bnl.png';
 import myPic3 from '../Images/Internship-Technology.jpg';
 import myPic4 from '../Images/gwi.png';
+import myPic5 from '../Images/sbulogo.png';
 
 function Experiences() {
     return (
         <div id="experience_setup">
             <h1 className="my_experiences"> My Experiences</h1>
             <div className="experience_name">
+                <span className="experience_date"> January 2026 - December 2026</span>
+                <span className="experience_location"> Stony Brook, NY</span>
+                <h2 className="experience_title"> Undergraduate Research Assistant </h2>
+                <p className="experience_description">
+                    Developing an honors thesis research project that uses game theory to model human vs. autonomous
+                    vehicle decision-making in mixed traffic scenarios. Building a two-agent Hawk–Dove simulation
+                    in Python to analyze how risk aversion and payoff parameters influence Nash/mixed-strategy outcomes,
+                    and prototyping an LLM-driven driver agent to simulate diverse human behaviors and evaluate policy-relevant
+                    patterns (e.g., humans exploiting cautious AVs).
+                </p>
+
+                <img id="experience_pic_5" src={myPic5} alt="Stony Brook University Logo"  style={{ width: "800px", height: "auto" }} />
+
+                <a className="experience_link" href="https://www.cs.stonybrook.edu/students/undergraduate-studies/courses/cse495" alt="Stony Brook University CSE 495 Information" target="_blank"> For more information about the program, click here. </a>
+
+            </div>
+            <div className="experience_name">
                 <span className="experience_date"> June 2025 - December 2026</span>
                 <span className="experience_location"> Buffalo, NY</span>
                 <h2 className="experience_title"> Technology Intern </h2>
                 <p className="experience_description">
-                    Selected for M&T Bank’s 10-week Technology Internship Program, contributing to the development of an enhanced internal
-                    chatbot for the Business Service Portal using Python, SQL, and Angular. Worked on training and integrating a deep learning
-                    model, improving natural language query handling, and building UI features that streamline employee workflow. Contract
-                    was extended to refactor legacy components and design a production-ready ticket viewing history feature using Angular,
-                    Java Spring Boot, HTML, and CSS, improving maintainability and user experience across the platform.
+                    Selected for M&T Bank’s 10-week Technology Internship Program, where I enhanced an internal chatbot for the
+                    Business Service Portal used by 7,000+ employees using Python, SQL, and Angular. Improved natural-language
+                    query handling by training/integrating a deep learning model and building UI features to streamline employee workflows.
+                    Earned a contract extension to refactor legacy components and deliver a production-ready ticket viewing history feature
+                    using Angular, Java Spring Boot, HTML, and CSS, improving maintainability and user experience across the platform.
                 </p>
 
                 <img id="experience_pic_3" src={myPic3} alt="M and T Bank TIP Acceptance" />
@@ -30,14 +48,23 @@ function Experiences() {
                 <span className="experience_location"> Remote </span>
                 <h2 className="experience_title"> Artifical Intelligence Fellow </h2>
                 <p className="experience_description">
-                    Selected as a fellow for Break Through Tech AI, a highly competitive yearlong AI Program, hosted by Cornell Tech and supported
-                    by industry partners to increase diversity in artificial intelligence and machine learning. The program includes: </p>
+                    Selected from 3,000+ applicants for Break Through Tech AI, a highly competitive yearlong AI/ML fellowship hosted by Cornell Tech
+                    focused on industry-driven, real-world machine learning projects. Highlights include:
+                </p>
 
-
-                <p className="experience_description"> Intensive summer Machine Learning Foundations course (Python, pandas, scikit-learn, NumPy) </p>
-                <p className="experience_description"> Hands-on, semester-long AI/ML project in collaboration with a leading tech company </p>
-                <p className="experience_description"> Career development coaching, mentorship, and networking opportunities </p>
-                <p className="experience_description"> Focus on real-world applications of AI, including ethical considerations and inclusive design </p>
+                <ul className="experience_bullets">
+                    <li className="experience_description">
+                        Completed an intensive Machine Learning Foundations course (Python, NumPy, scikit-learn, TensorFlow).
+                    </li>
+                    <li className="experience_description">
+                        Developed a computer vision data-extraction model in collaboration with Automation Anywhere to streamline workflows across
+                        industries such as healthcare, finance, and logistics.
+                    </li>
+                    <li className="experience_description">
+                        Currently participating in the WiDS Global Datathon (Kaggle) to build calibrated survival models that predict wildfire threats
+                        to evacuation zones within 12/24/48/72 hours using only the first five hours of post-ignition data.
+                    </li>
+                </ul>
 
 
                 <img id="experience_pic_1" src={myPic1} alt="Breakthrough Tech AI cohort acceptance" />
