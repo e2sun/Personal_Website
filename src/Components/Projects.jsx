@@ -19,8 +19,16 @@ import myPic18 from '../Images/applications-copy.png';
 import myPic19 from '../Images/company-detail-copy.png';
 import myPic20 from '../Images/add-company-copy.png';
 import myPic21 from '../Images/add-application-copy.png';
-
-
+import myPic22 from '../Images/homepage.png';
+import myPic23 from '../Images/potion_shelf.png';
+import myPic24 from '../Images/create_new_potion.png';
+import myPic25 from '../Images/in-progress-potion.png';
+import myPic26 from '../Images/view-in-progress-potions.png';
+import myPic27 from '../Images/view-completed-potions.png';
+import myPic28 from '../Images/brewing-complete.png';
+import myPic29 from '../Images/potion-gallery.png';
+import myPic30 from '../Images/ingredients-gallery.png';
+import myPic31 from '../Images/shop.png';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -30,6 +38,21 @@ import { useState, useEffect } from 'react';
 
 
 const projectData = [
+    {
+        title: 'BrewBoard',
+        description: [
+            `BrewBoard was created to transform task management into a magical, rewarding experience. Inspired by the Harry
+            Potter theme of our 24-hour hackathon, we reimagined productivity as potion-making—where goals become potions,
+            subtasks become ingredients, and completing them earns points to unlock new content. Users can track progress
+            through an interactive Brew Dashboard, manage their Potion Shelf, celebrate completions with a “Brewing Complete”
+            modal, and explore original hand-drawn wizarding artwork in the Gallery. We built BrewBoard as a full-stack web
+            application using Angular (TypeScript + SCSS) for a reactive, component-based frontend and Java Spring Boot for a
+            modular REST API handling potions, ingredients, completion states, and point calculations. All potion and ingredient
+            artwork was digitally hand-drawn by our team and integrated into a cohesive Hogwarts-inspired interface.`
+        ],
+        images: [myPic22, myPic23, myPic24, myPic25, myPic26, myPic27, myPic28, myPic29, myPic30, myPic31],
+        github: 'https://github.com/e2sun/Potion-Brewing',
+    },
     {
         title: 'Internship Application Tracker',
         description: [
