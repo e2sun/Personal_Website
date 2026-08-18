@@ -387,10 +387,21 @@ body {
   transition: transform 0.3s ease;
 }
 
+#experience_pic_6 {
+  width: 100%;
+  max-width: 260px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
 #experience_pic_1:hover,
 .experience_pic_2:hover,
 #experience_pic_3:hover,
-#experience_pic_4:hover {
+#experience_pic_4:hover,
+#experience_pic_6:hover {
   transform: scale(1.03);
 }
 

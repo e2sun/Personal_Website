@@ -4,6 +4,7 @@ import myPic2 from '../Images/bnl.png';
 import myPic3 from '../Images/Internship-Technology.jpg';
 import myPic4 from '../Images/gwi.png';
 import myPic5 from '../Images/sbulogo.png';
+import myPic6 from '../Images/morganstanley.png';
 
 function Experiences() {
     return (
@@ -24,6 +25,25 @@ function Experiences() {
                 <img id="experience_pic_5" src={myPic5} alt="Stony Brook University Logo"  style={{ width: "800px", height: "auto" }} />
 
                 <a className="experience_link" href="https://www.cs.stonybrook.edu/students/undergraduate-studies/courses/cse495" alt="Stony Brook University CSE 495 Information" target="_blank"> For more information about the program, click here. </a>
+
+            </div>
+            <div className="experience_name">
+                <span className="experience_date"> June 2026 - August 2026</span>
+                <span className="experience_location"> New York, NY</span>
+                <h2 className="experience_title"> Technology Intern </h2>
+                <p className="experience_description">
+                    Selected for Morgan Stanley’s Technology Internship Program, where I built an investor analytics and bookbuilding platform from
+                    the ground up within the Investment Banking & Global Capital Markets Technology division using Python and React. Developed
+                    functionality to support Equity Capital Markets workflows, including investor demand analysis, deal coverage monitoring, and
+                    allocation trend analysis, and presented the project to technology leadership. Demonstrated responsible AI-assisted development
+                    using GitHub Spec Kit across the software development lifecycle and contributed to a broader modernization initiative by converting
+                    legacy SQL logic to Java and developing MongoDB query plans. Invited to extend my internship by 2 weeks to continue contributing
+                    to the modernization effort.
+                </p>
+
+                <img id="experience_pic_6" src={myPic6} alt="Morgan Stanley logo" />
+
+                <a className="experience_link" href="https://www.morganstanley.com/careers/career-opportunities-search?opportunity=sg" alt="Morgan Stanley Technology Internship Program" target="_blank"> For more information about the program, click here. </a>
 
             </div>
             <div className="experience_name">
